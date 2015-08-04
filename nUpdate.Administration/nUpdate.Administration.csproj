@@ -164,6 +164,12 @@
     <Compile Include="Core\IAsyncSupportable.cs" />
     <Compile Include="Core\IResettable.cs" />
     <Compile Include="Core\ListingItem.cs" />
+    <Compile Include="Core\Operations\Panels\FileReplaceOperationPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Core\Operations\Panels\FileReplaceOperationPanel.Designer.cs">
+      <DependentUpon>FileReplaceOperationPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Core\Operations\Panels\ScriptExecuteOperationPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -461,6 +467,9 @@
     <Compile Include="UI\Popups\PopupDialog.Designer.cs">
       <DependentUpon>PopupDialog.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Core\Operations\Panels\FileReplaceOperationPanel.resx">
+      <DependentUpon>FileReplaceOperationPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Core\Operations\Panels\FileDeleteOperationPanel.resx">
       <DependentUpon>FileDeleteOperationPanel.cs</DependentUpon>
     </EmbeddedResource>

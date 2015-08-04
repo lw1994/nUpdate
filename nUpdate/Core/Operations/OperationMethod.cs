@@ -14,6 +14,7 @@ namespace nUpdate.Core.Operations
         DeleteValue,
         Start,
         Stop,
-        Execute
+        Execute,
+        Replace
     }
 }

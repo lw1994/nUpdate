@@ -48,6 +48,8 @@ namespace nUpdate.Core.Operations
                     return new Tuple<OperationArea, OperationMethod>(OperationArea.Files, OperationMethod.Delete);
                 case "RenameFile":
                     return new Tuple<OperationArea, OperationMethod>(OperationArea.Files, OperationMethod.Rename);
+                case "ReplaceFile":
+                    return new Tuple<OperationArea, OperationMethod>(OperationArea.Files, OperationMethod.Replace);
                 case "CreateRegistrySubKey":
                     return new Tuple<OperationArea, OperationMethod>(OperationArea.Registry, OperationMethod.Create);
                 case "DeleteRegistrySubKey":
